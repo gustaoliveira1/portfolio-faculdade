@@ -4,11 +4,6 @@ header {
     padding: 1.5rem;
 }
 
-header > .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 header > .wrapper > .left {
     display: flex;
     align-items: center;
@@ -29,9 +24,8 @@ header > .wrapper > .left > nav {
 }
 
 header > .wrapper > .left > nav > a {
-    color: gray; 
+    color: black;
     text-decoration: none;
-    font-weight: bold;
     transition: .3s linear;
 } 
 
