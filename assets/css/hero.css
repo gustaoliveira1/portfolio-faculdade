@@ -1,0 +1,43 @@
+/* estilos da seção hero da página */
+#hero {
+    padding: 8rem 1.5rem;
+}
+
+#hero > .wrapper {
+    gap: 4rem;
+}
+
+#hero > .wrapper > .left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#hero > .wrapper > .left > h1 {
+    font-size: 3em;
+}
+
+#hero > .wrapper > .left > .contact-me {
+    max-width: fit-content;
+}
+
+#hero > .wrapper > .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero > .wrapper > .right > img {
+    max-width: 21.875rem;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* animação do astronauta flutuando */
+@keyframes float {
+    0%, 100%  {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-1rem);
+    }
+}
