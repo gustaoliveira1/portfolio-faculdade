@@ -1,0 +1,49 @@
+/* estilos do cabeçalho da página */
+header {
+    width: 100%;
+    padding: 1.5rem;
+}
+
+header > .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header > .wrapper > .left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > .wrapper > .left > h3 {
+    font-size: 1.75em;
+}
+
+header > .wrapper > .left > h3 > span {
+    color: var(--color-primary);
+}
+
+header > .wrapper > .left > nav {
+    display: flex;
+    gap: 1rem;
+}
+
+header > .wrapper > .left > nav > a {
+    color: gray; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s linear;
+} 
+
+header > .wrapper > .right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* só aplica hover se o usuário estiver usando um mouse */
+@media screen and (hover: hover) {
+    header > .wrapper > .left > nav > a:hover {
+        color: var(--color-primary);
+    }
+}
