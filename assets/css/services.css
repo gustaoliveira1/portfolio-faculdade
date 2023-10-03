@@ -1,0 +1,56 @@
+#services {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem 0;
+}
+
+#services > .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#services > .header > .left,
+#services > .header > .right {
+    max-width: 50%;
+}
+
+#services > .header > .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#services > .header > .right > a {
+    max-width: fit-content;
+}
+
+#services > .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+#services > .main > .card {
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 2rem var(--color-secondary-opacity);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#services > .main > .card > .icon {
+    width: fit-content;
+    background-color: var(--color-secondary-opacity);
+    padding: .75rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services > .main > .card > div > h3 {
+    margin: 0 0 .5rem 0;
+}
