@@ -1,55 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gustavo Oliveira Araujo</title>
 
     <!-- importação dos estilos -->
-    <link rel="stylesheet" href="./assets/css/global.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/hero.css">
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/hero.css" />
+    <link rel="stylesheet" href="./assets/css/about-me.css" />
+    <link rel="stylesheet" href="./assets/css/services.css" />
 
     <!-- importação das fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- cabeçalho da página -->
     <header>
-        <div class="wrapper divide-screen">
-            <div class="left">
-                <h3><span>G</span>ustavo</h3>
-                <nav>
-                    <a href="#">Sobre Mim</a>
-                    <a href="#">Formação</a>
-                    <a href="#">Meu Trabalho</a>
-                </nav>
-            </div>
-            <div class="right">
-                <a class="contact-me" href="#">Fale Comigo</a>
-            </div>
+      <div class="wrapper divide-screen">
+        <div class="left">
+          <h3><span>G</span>ustavo</h3>
+          <nav>
+            <a href="#">Sobre Mim</a>
+            <a href="#">Formação</a>
+            <a href="#">Meu Trabalho</a>
+          </nav>
         </div>
+        <div class="right">
+          <a class="contact-me" href="#">Fale Comigo</a>
+        </div>
+      </div>
     </header>
 
     <main>
-        <!-- capa da página -->
-        <section id="hero">
-            <div class="wrapper divide-screen">
-                <div class="left">
-                    <h1>Transforme Suas Ideias em Realidade</h1>
-                    <p>Meu entusiasmo pela programação e inovação me impulsiona a criar soluções excepcionais que elevam a experiência do usuário, destacando a sua marca em um mercado digital concorrido.</p>
-                    <a href="#" class="contact-me">Fale Comigo</a>
-                </div>
-                <div class="right">
-                    <img src="./assets/img/astronauta.png" alt="Um pequeno astronauta">
-                </div>
+      <!-- capa da página -->
+      <section id="hero">
+        <div class="wrapper divide-screen">
+          <div class="left">
+            <h1>Transforme Suas Ideias em Realidade</h1>
+            <p>
+              Meu entusiasmo pela programação e inovação me impulsiona a criar
+              soluções excepcionais que elevam a experiência do usuário,
+              destacando a sua marca em um mercado digital concorrido.
+            </p>
+            <a href="#" class="contact-me">Fale Comigo</a>
+          </div>
+          <div class="right">
+            <img
+              src="./assets/img/astronauta.png"
+              alt="Um pequeno astronauta"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="header wrapper">
+          <div class="left">
+            <h2>Meus Serviços</h2>
+            <p>
+              Eu ofereço um conjunto abrangente de serviços de desenvolvimento
+              adaptados para atender às necessidades exclusivas do seu negócio.
+            </p>
+          </div>
+          <div class="right">
+            <p>Precisa de um serviço? Fale comigo!</p>
+            <a class="contact-me" href="#">Fale Comigo</a>
+          </div>
+        </div>
+        <div class="main wrapper">
+          <div class="card">
+            <span class="icon"
+              ><img src="./assets/img/code.svg" alt="ícone"
+            /></span>
+            <div>
+              <h3>Desenvolvimento Web</h3>
+              <p>
+                Desenvolvimento web personalizado para presença online
+                eficiente, adaptado às necessidades específicas, de websites a
+                aplicações dinâmicas.
+              </p>
             </div>
-        </section>
+          </div>
 
+          <div class="card">
+            <span class="icon"
+              ><img src="./assets/img/desktop.svg" alt="ícone"
+            /></span>
+            <div>
+              <h3>Foco em UI/UX Design</h3>
+              <p>
+                Desenvolvo protótipos com ênfase em UI/UX para soluções digitais
+                envolventes, personalizadas conforme suas necessidades
+                exclusivas.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="icon"
+              ><img src="./assets/img/wrench.svg" alt="ícone"
+            /></span>
+            <div>
+              <h3>Manutenção e Atualização</h3>
+              <p>
+                Prestação de serviços contínuos para garantir que os websites
+                estejam atualizados e funcionando sem problemas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
-</body>
+  </body>
 </html>
