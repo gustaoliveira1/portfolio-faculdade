@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/hero.css" />
     <link rel="stylesheet" href="./assets/css/about-me.css" />
     <link rel="stylesheet" href="./assets/css/services.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
 
     <!-- importação das fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,15 +26,14 @@
     <header>
       <div class="wrapper divide-screen">
         <div class="left">
-          <h3><span>G</span>ustavo</h3>
           <nav>
-            <a href="#">Sobre Mim</a>
+            <a href="#about-me">Sobre Mim</a>
             <a href="#">Formação</a>
             <a href="#">Meu Trabalho</a>
           </nav>
         </div>
         <div class="right">
-          <a class="contact-me" href="#">Fale Comigo</a>
+          <a class="contact-me" href="#contact">Fale Comigo</a>
         </div>
       </div>
     </header>
@@ -49,7 +49,7 @@
               soluções excepcionais que elevam a experiência do usuário,
               destacando a sua marca em um mercado digital concorrido.
             </p>
-            <a href="#" class="contact-me">Fale Comigo</a>
+            <a href="#contact" class="contact-me">Fale Comigo</a>
           </div>
           <div class="right">
             <img
@@ -60,6 +60,7 @@
         </div>
       </section>
 
+      <!-- seção de serviços  -->
       <section id="services">
         <div class="header wrapper">
           <div class="left">
@@ -71,7 +72,7 @@
           </div>
           <div class="right">
             <p>Precisa de um serviço? Fale comigo!</p>
-            <a class="contact-me" href="#">Fale Comigo</a>
+            <a class="contact-me" href="#contact">Fale Comigo</a>
           </div>
         </div>
         <div class="main wrapper">
@@ -96,9 +97,9 @@
             <div>
               <h3>Foco em UI/UX Design</h3>
               <p>
-                Desenvolvo protótipos com ênfase em UI/UX para soluções digitais
-                envolventes, personalizadas conforme suas necessidades
-                exclusivas.
+                Desenvolvimento com ênfase em UI/UX para soluções digitais
+                envolventes, elegantes e personalizadas conforme suas
+                necessidades exclusivas.
               </p>
             </div>
           </div>
@@ -116,6 +117,63 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- seção sobre mim -->
+      <section id="about-me">
+        <div class="wrapper">
+          <h2>Sobre Mim</h2>
+          <div>
+            <p>
+              Olá, eu sou o Gustavo! Desde a minha infância, sempre fui
+              fascinado pela ideia de um futuro repleto de inovações
+              tecnológicas, como carros voadores e hologramas em 3D. Esses
+              conceitos futuristas alimentavam minha imaginação e despertavam
+              uma paixão pelo desconhecido.
+            </p>
+            <p>
+              O potencial da tecnologia para criar máquinas incríveis sempre me
+              inspirou, alimentando minha curiosidade sobre como a engenharia
+              poderia moldar o nosso amanhã. Essa fascinação infantil se
+              transformou em uma jornada acadêmica na área de Análise e
+              Desenvolvimento de Sistemas, onde tenho a oportunidade de explorar
+              a tecnologia.
+            </p>
+            <p>
+              Sou apaixonado por uma boa música e adoro assistir séries
+              investigativas, ficção ciêntifica e comédias.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- seção para contato -->
+      <section id="contact">
+        <form class="wrapper">
+          <h2>Pronto Para Elevar sua Marca com Soluções Digitais Incríveis?</h2>
+          <div class="header">
+            <div class="input">
+              <label for="name">Nome: </label>
+              <input type="text" id="name" placeholder="John Doe" required />
+            </div>
+            <div class="input">
+              <label for="email">Email: </label>
+              <input
+                type="email"
+                id="email"
+                placeholder="johndoe@example.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="input">
+            <label for="message">Mensagem: </label>
+            <textarea name="message" id="message" cols="30" rows="10">
+Olá! Eu gostaria de um orçamento...
+            </textarea>
+          </div>
+          <button class="contact-me">Enviar</button>
+        </form>
       </section>
     </main>
   </body>
