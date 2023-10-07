@@ -1,0 +1,44 @@
+#contact {
+    padding: 4rem 0;
+}
+
+#contact > .wrapper {
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    box-shadow: 0 0 2rem var(--color-secondary-opacity);
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+#contact > .wrapper > h2 {
+    font-size: 1.5em;
+    text-align: center;
+    align-self: center;
+}
+
+#contact > .wrapper > .header {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#contact > .wrapper .input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#contact > .wrapper .input > label {
+    font-weight: bold;
+}
+
+#contact > .wrapper input, #contact > .wrapper textarea {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: var(--color-secondary) 1px solid;
+}
+
+#contact > .wrapper textarea {
+    resize: none;
+}
