@@ -1,0 +1,22 @@
+#about-me {
+    padding: 4rem 0;
+}
+#about-me > .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#about-me > .wrapper > h2 {
+    font-size: 2em;
+    text-align: center;
+} 
+
+#about-me > .wrapper > div {
+    max-width: 768px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: auto;
+}
