@@ -12,11 +12,19 @@
     text-align: center;
 } 
 
-#about-me > .wrapper > div {
-    max-width: 768px;
+#about-me > .wrapper > .divide-screen {
+    gap: 1.5rem;
+} 
+
+#about-me > .wrapper > .divide-screen > div {
     text-align: justify;
     display: flex;
     flex-direction: column;
     gap: .5rem;
     margin: auto;
 }
+
+#about-me > .wrapper > .divide-screen > img {
+    width: 21.875rem;
+    animation: float 3s ease-in-out infinite;
+} 
