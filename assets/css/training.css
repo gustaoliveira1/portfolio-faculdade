@@ -1,0 +1,33 @@
+#training {
+  padding: 4rem 0;
+}
+#training > .left >  h2 {
+  font-size: 3rem; 
+  line-height: 90%;
+}
+
+#training > .right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#training > .right > .card > main {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+#training > .right > .card > main > span {
+ font-weight: bold; 
+} 
+
+#training > .right > .card > main > .content > h3 {
+  font-size: 2rem;
+  margin: 0 0 .5rem 0;
+}
+
+#training > .right > .card > main > .content > p > span {
+  font-weight: bold;
+}
