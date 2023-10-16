@@ -32,4 +32,9 @@
     animation: float 3s ease-in-out infinite;
 }
 
-
+@media screen and (max-width: 848px) {
+    #hero > .divide-screen {
+        display: flex;
+        flex-direction: column;
+    } 
+}
