@@ -1,5 +1,5 @@
 #contact {
-    padding: 4rem 0;
+    padding: 4rem 1.5rem;
 }
 
 #contact > .wrapper {
@@ -41,4 +41,10 @@
 
 #contact > .wrapper textarea {
     resize: none;
+}
+
+@media screen and (max-width: 768px) {
+    #contact > .wrapper > .header {
+        flex-direction: column;
+    }
 }
