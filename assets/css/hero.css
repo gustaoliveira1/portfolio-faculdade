@@ -30,6 +30,7 @@
 #hero > .wrapper > .right > img {
     max-width: 21.875rem;
     animation: float 3s ease-in-out infinite;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 848px) {
