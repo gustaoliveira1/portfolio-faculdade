@@ -54,3 +54,25 @@
 #services > .main > .card > div > h3 {
     margin: 0 0 .5rem 0;
 }
+
+@media screen and (max-width: 1024px) {
+    #services > .main {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #services > .header {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    #services > .header > .left,
+    #services > .header > .right {
+        max-width: 100%;
+    }
+    #services > .header > .right {
+        gap: 1rem;
+        align-items: start;
+    }
+}
