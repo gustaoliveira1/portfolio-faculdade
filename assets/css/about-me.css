@@ -1,5 +1,5 @@
 #about-me {
-    padding: 4rem 0;
+    padding: 4rem 1.5rem;
 }
 #about-me > .wrapper {
     display: flex;
@@ -28,3 +28,14 @@
     width: 21.875rem;
     animation: float 3s ease-in-out infinite;
 } 
+
+@media screen and (max-width: 848px) {
+    #about-me > .wrapper > .divide-screen {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #about-me > .wrapper > .divide-screen > img {
+        margin: auto;
+        max-width: 100%;
+    }
+}

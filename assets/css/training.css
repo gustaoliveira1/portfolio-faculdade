@@ -1,5 +1,5 @@
 #training {
-  padding: 4rem 0;
+  padding: 4rem 1.5rem;
 }
 #training > .left >  h2 {
   font-size: 3rem; 
@@ -30,4 +30,21 @@
 
 #training > .right > .card > main > .content > p > span {
   font-weight: bold;
+}
+
+@media screen and (max-width: 848px) {
+  #training.divide-screen {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #training > .left >  h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 452px) {
+  #training > .right > .card > main {
+    flex-direction: column;
+  }
 }
