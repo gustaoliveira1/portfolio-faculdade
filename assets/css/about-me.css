@@ -28,3 +28,14 @@
     width: 21.875rem;
     animation: float 3s ease-in-out infinite;
 } 
+
+@media screen and (max-width: 848px) {
+    #about-me > .wrapper > .divide-screen {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #about-me > .wrapper > .divide-screen > img {
+        margin: auto;
+        max-width: 100%;
+    }
+}
