@@ -41,3 +41,9 @@
         filter: brightness(.8);
     }
 }
+
+@media screen and (max-width: 768px) {
+    #portfolio > .main {
+        grid-template-columns: 1fr;
+    }
+}
