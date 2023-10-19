@@ -1,273 +1,262 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gustavo Oliveira Araujo</title>
 
-    <!-- importação dos estilos -->
-    <link rel="stylesheet" href="./assets/css/global.css" />
-    <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="./assets/css/hero.css" />
-    <link rel="stylesheet" href="./assets/css/about-me.css" />
-    <link rel="stylesheet" href="./assets/css/services.css" />
-    <link rel="stylesheet" href="./assets/css/contact.css" />
-    <link rel="stylesheet" href="./assets/css/training.css" />
-    <link rel="stylesheet" href="./assets/css/portfolio.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gustavo Oliveira Araujo</title>
 
-    <!-- importação das fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- cabeçalho da página -->
-    <header>
+  <!-- importação dos estilos -->
+  <link rel="stylesheet" href="./assets/css/global.css" />
+  <link rel="stylesheet" href="./assets/css/header.css" />
+  <link rel="stylesheet" href="./assets/css/hero.css" />
+  <link rel="stylesheet" href="./assets/css/about-me.css" />
+  <link rel="stylesheet" href="./assets/css/services.css" />
+  <link rel="stylesheet" href="./assets/css/contact.css" />
+  <link rel="stylesheet" href="./assets/css/training.css" />
+  <link rel="stylesheet" href="./assets/css/portfolio.css" />
+
+  <!-- importação das fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- cabeçalho da página -->
+  <header>
+    <div class="wrapper divide-screen">
+      <div class="left">
+        <nav>
+          <a href="#about-me">Sobre Mim</a>
+          <a href="#training">Formação</a>
+          <a href="#portfolio">Portfolio</a>
+        </nav>
+      </div>
+      <div class="right">
+        <a class="contact-me" href="#contact">Fale Comigo</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- capa da página -->
+    <section id="hero">
       <div class="wrapper divide-screen">
         <div class="left">
-          <nav>
-            <a href="#about-me">Sobre Mim</a>
-            <a href="#training">Formação</a>
-            <a href="#">Meu Trabalho</a>
-          </nav>
+          <h1>Transforme Suas Ideias em Realidade</h1>
+          <p>
+            Meu entusiasmo pela programação e inovação me impulsiona a criar
+            soluções excepcionais que elevam a experiência do usuário,
+            destacando a sua marca em um mercado digital concorrido.
+          </p>
+          <a href="#contact" class="contact-me">Fale Comigo</a>
         </div>
         <div class="right">
+          <img src="./assets/img/astronauta.png" alt="Um pequeno astronauta" />
+        </div>
+      </div>
+    </section>
+
+    <!-- seção de serviços  -->
+    <section id="services">
+      <div class="header wrapper">
+        <div class="left">
+          <h2>Meus Serviços</h2>
+          <p>
+            Eu ofereço um conjunto abrangente de serviços de desenvolvimento
+            adaptados para atender às necessidades exclusivas do seu negócio.
+          </p>
+        </div>
+        <div class="right">
+          <p>Precisa de um serviço? Fale comigo!</p>
           <a class="contact-me" href="#contact">Fale Comigo</a>
         </div>
       </div>
-    </header>
-
-    <main>
-      <!-- capa da página -->
-      <section id="hero">
-        <div class="wrapper divide-screen">
-          <div class="left">
-            <h1>Transforme Suas Ideias em Realidade</h1>
+      <div class="main wrapper">
+        <div class="card">
+          <span class="icon"><img src="./assets/img/code.svg" alt="ícone" /></span>
+          <div>
+            <h3>Desenvolvimento Web</h3>
             <p>
-              Meu entusiasmo pela programação e inovação me impulsiona a criar
-              soluções excepcionais que elevam a experiência do usuário,
-              destacando a sua marca em um mercado digital concorrido.
-            </p>
-            <a href="#contact" class="contact-me">Fale Comigo</a>
-          </div>
-          <div class="right">
-            <img
-              src="./assets/img/astronauta.png"
-              alt="Um pequeno astronauta"
-            />
-          </div>
-        </div>
-      </section>
-
-      <!-- seção de serviços  -->
-      <section id="services">
-        <div class="header wrapper">
-          <div class="left">
-            <h2>Meus Serviços</h2>
-            <p>
-              Eu ofereço um conjunto abrangente de serviços de desenvolvimento
-              adaptados para atender às necessidades exclusivas do seu negócio.
+              Desenvolvimento web personalizado para presença online
+              eficiente, adaptado às necessidades específicas, de websites a
+              aplicações dinâmicas.
             </p>
           </div>
-          <div class="right">
-            <p>Precisa de um serviço? Fale comigo!</p>
-            <a class="contact-me" href="#contact">Fale Comigo</a>
+        </div>
+
+        <div class="card">
+          <span class="icon"><img src="./assets/img/desktop.svg" alt="ícone" /></span>
+          <div>
+            <h3>Foco em UI/UX Design</h3>
+            <p>
+              Desenvolvimento com ênfase em UI/UX para soluções digitais
+              envolventes, elegantes e personalizadas conforme suas
+              necessidades exclusivas.
+            </p>
           </div>
         </div>
-        <div class="main wrapper">
-          <div class="card">
-            <span class="icon"
-              ><img src="./assets/img/code.svg" alt="ícone"
-            /></span>
-            <div>
-              <h3>Desenvolvimento Web</h3>
-              <p>
-                Desenvolvimento web personalizado para presença online
-                eficiente, adaptado às necessidades específicas, de websites a
-                aplicações dinâmicas.
-              </p>
-            </div>
-          </div>
 
-          <div class="card">
-            <span class="icon"
-              ><img src="./assets/img/desktop.svg" alt="ícone"
-            /></span>
-            <div>
-              <h3>Foco em UI/UX Design</h3>
-              <p>
-                Desenvolvimento com ênfase em UI/UX para soluções digitais
-                envolventes, elegantes e personalizadas conforme suas
-                necessidades exclusivas.
-              </p>
-            </div>
-          </div>
-
-          <div class="card">
-            <span class="icon"
-              ><img src="./assets/img/wrench.svg" alt="ícone"
-            /></span>
-            <div>
-              <h3>Manutenção e Atualização</h3>
-              <p>
-                Prestação de serviços contínuos para garantir que os websites
-                estejam atualizados e funcionando sem problemas.
-              </p>
-            </div>
+        <div class="card">
+          <span class="icon"><img src="./assets/img/wrench.svg" alt="ícone" /></span>
+          <div>
+            <h3>Manutenção e Atualização</h3>
+            <p>
+              Prestação de serviços contínuos para garantir que os websites
+              estejam atualizados e funcionando sem problemas.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- seção sobre mim -->
-      <section id="about-me">
-        <div class="wrapper">
-          <h2>Sobre Mim</h2>
-          <div class="divide-screen">
-            <img src="./assets/img/astronaut-moon.png" alt="">
-            <div>
-              <p>
-                Olá, eu sou o Gustavo! Desde a minha infância, sempre fui
-                fascinado pela ideia de um futuro repleto de inovações
-                tecnológicas, como carros voadores e hologramas em 3D. Esses
-                conceitos futuristas alimentavam minha imaginação e despertavam
-                uma paixão pelo desconhecido.
-              </p>
-              <p>
-                O potencial da tecnologia para criar máquinas incríveis sempre me
-                inspirou, alimentando minha curiosidade sobre como a engenharia
-                poderia moldar o nosso amanhã. Essa fascinação infantil se
-                transformou em uma jornada acadêmica na área de Análise e
-                Desenvolvimento de Sistemas, onde tenho a oportunidade de explorar
-                a tecnologia.
-              </p>
-              <p>
-                Sou apaixonado por uma boa música e adoro assistir séries
-                investigativas, ficção ciêntifica e comédias. Também adoro 
-                filosofia e sempre estar em contato com a natureza
-              </p>
-            </div>  
+    <!-- seção sobre mim -->
+    <section id="about-me">
+      <div class="wrapper">
+        <h2>Sobre Mim</h2>
+        <div class="divide-screen">
+          <img src="./assets/img/astronaut-moon.png" alt="">
+          <div>
+            <p>
+              Olá, eu sou o Gustavo! Desde a minha infância, sempre fui
+              fascinado pela ideia de um futuro repleto de inovações
+              tecnológicas, como carros voadores e hologramas em 3D. Esses
+              conceitos futuristas alimentavam minha imaginação e despertavam
+              uma paixão pelo desconhecido.
+            </p>
+            <p>
+              O potencial da tecnologia para criar máquinas incríveis sempre me
+              inspirou, alimentando minha curiosidade sobre como a engenharia
+              poderia moldar o nosso amanhã. Essa fascinação infantil se
+              transformou em uma jornada acadêmica na área de Análise e
+              Desenvolvimento de Sistemas, onde tenho a oportunidade de explorar
+              a tecnologia.
+            </p>
+            <p>
+              Sou apaixonado por uma boa música e adoro assistir séries
+              investigativas, ficção ciêntifica e comédias. Também adoro
+              filosofia e sempre estar em contato com a natureza
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- seção de portfólio -->
-      <section id="portfolio" class="wrapper">
+    <!-- seção de portfólio -->
+    <section id="portfolio" class="wrapper">
+      <div class="header">
+        <h2>Meu Portfolio</h2>
+        <p>Bem-vindo ao meu portfólio, um espaço onde cada projeto conta uma história única. Explore a diversidade de
+          ideias e soluções que dei vida, refletindo minha paixão pela inovação e design. Estou animado para
+          compartilhar meu trabalho inspirador contigo.</p>
+      </div>
+      <div class="main">
+        <a href="https://agencia-desing-gustaoliveira.netlify.app/" target="_blank">
+          <div class="card">
+            <img src="./assets/img/agencia-design.png" alt="">
+          </div>
+        </a>
+        <a href="https://barber-shop-gustaoliveira.netlify.app/" target="_blank">
+          <div class="card">
+            <img src="./assets/img/barbearia.png" alt="">
+          </div>
+        </a>
+        <a href="https://gelateria-gustaoliveira.netlify.app/" target="_blank">
+          <div class="card">
+            <img src="./assets/img/gelateria.png" alt="">
+          </div>
+        </a>
+        <a href="https://gelateria-gustaoliveira.netlify.app/" target="_blank">
+          <div class="card">
+            <img src="./assets/img/hospedagem.png" alt="">
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- seção sobre minha formação -->
+    <section id="training" class="wrapper divide-screen">
+      <div class="left">
+        <h2>
+          Minha <br />
+          Formação
+        </h2>
+      </div>
+
+      <div class="right">
+        <div class="card">
+          <hr />
+          <main>
+            <span>10/2025</span>
+            <div class="content">
+              <h3>Análise e Desenvolvimento de Sistemas</h3>
+              <p><span>Instituição:</span> Escola Politécnica Uninter</p>
+            </div>
+          </main>
+        </div>
+
+        <div class="card">
+          <hr />
+          <main>
+            <span>12/2023</span>
+            <div class="content">
+              <h3>Angular & Java</h3>
+              <p><span>Instituição:</span> Digital Innovation One</p>
+            </div>
+          </main>
+        </div>
+
+        <div class="card">
+          <hr />
+          <main>
+            <span>03/2024</span>
+            <div class="content">
+              <h3>Ciências da Computação</h3>
+              <p><span>Instituição:</span> Na prática</p>
+            </div>
+          </main>
+        </div>
+
+        <div class="card">
+          <hr />
+          <main>
+            <span>01/2024</span>
+            <div class="content">
+              <h3>UX Design</h3>
+              <p><span>Instituição:</span> Coursera + Google</p>
+            </div>
+          </main>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- seção para contato -->
+    <section id="contact">
+      <form class="wrapper">
+        <h2>Pronto Para Elevar sua Marca com Soluções Digitais Incríveis?</h2>
         <div class="header">
-          <h2>Meu Portfolio</h2>
-          <p>Bem-vindo ao meu portfólio, um espaço onde cada projeto conta uma história única. Explore a diversidade de ideias e soluções que dei vida, refletindo minha paixão pela inovação e design. Estou animado para compartilhar meu trabalho inspirador contigo.</p> 
-        </div>
-        <div class="main">
-            <a href="https://agencia-desing-gustaoliveira.netlify.app/" target="_blank">
-              <div class="card">
-                <img src="./assets/img/agencia-design.png" alt="">
-              </div>
-            </a>
-            <a href="https://barber-shop-gustaoliveira.netlify.app/" target="_blank">
-              <div class="card">
-                <img src="./assets/img/barbearia.png" alt="">
-              </div>
-            </a>
-            <a href="https://gelateria-gustaoliveira.netlify.app/" target="_blank">
-              <div class="card">
-                <img src="./assets/img/gelateria.png" alt="">
-              </div>
-            </a>
-            <a href="https://gelateria-gustaoliveira.netlify.app/" target="_blank">
-              <div class="card">
-                <img src="./assets/img/hospedagem.png" alt="">
-              </div>
-            </a>
-        </div>
-      </section>
-
-      <!-- seção sobre minha formação -->
-      <section id="training" class="wrapper divide-screen">
-        <div class="left">
-          <h2>
-            Minha <br />
-            Formação
-          </h2>
-        </div>
-
-        <div class="right">
-          <div class="card">
-            <hr />
-            <main>
-              <span>10/2025</span>
-              <div class="content">
-                <h3>Análise e Desenvolvimento de Sistemas</h3>
-                <p><span>Instituição:</span> Escola Politécnica Uninter</p>
-              </div>
-            </main>
-          </div>
-
-            <div class="card">
-              <hr />
-              <main>
-                <span>12/2023</span>
-                <div class="content">
-                  <h3>Angular & Java</h3>
-                  <p><span>Instituição:</span> Digital Innovation One</p>
-                </div>
-              </main>
-            </div>
-
-            <div class="card">
-              <hr />
-              <main>
-                <span>03/2024</span>
-                <div class="content">
-                  <h3>Ciências da Computação</h3>
-                  <p><span>Instituição:</span> Na prática</p>
-                </div>
-              </main>
-            </div>
-
-            <div class="card">
-              <hr />
-              <main>
-                <span>01/2024</span>
-                <div class="content">
-                  <h3>UX Design</h3>
-                  <p><span>Instituição:</span> Coursera + Google</p>
-                </div>
-              </main>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- seção para contato -->
-      <section id="contact">
-        <form class="wrapper">
-          <h2>Pronto Para Elevar sua Marca com Soluções Digitais Incríveis?</h2>
-          <div class="header">
-            <div class="input">
-              <label for="name">Nome: </label>
-              <input type="text" id="name" placeholder="John Doe" required />
-            </div>
-            <div class="input">
-              <label for="email">Email: </label>
-              <input
-                type="email"
-                id="email"
-                placeholder="johndoe@example.com"
-                required
-              />
-            </div>
+          <div class="input">
+            <label for="name">Nome: </label>
+            <input type="text" id="name" placeholder="John Doe" required />
           </div>
           <div class="input">
-            <label for="message">Mensagem: </label>
-            <textarea name="message" id="message" cols="30" rows="10">
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="johndoe@example.com" required />
+          </div>
+        </div>
+        <div class="input">
+          <label for="message">Mensagem: </label>
+          <textarea name="message" id="message" cols="30" rows="10">
 Olá! Eu gostaria de um orçamento...
             </textarea>
-          </div>
-          <button class="contact-me">Enviar</button>
-        </form>
-      </section>
-    </main>
-  </body>
+        </div>
+        <button class="contact-me">Enviar</button>
+      </form>
+    </section>
+  </main>
+</body>
+
 </html>
